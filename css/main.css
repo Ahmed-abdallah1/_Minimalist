@@ -1,0 +1,615 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+
+.main nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main .nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main .nav ul li{
+    list-style:none;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.toglar i {
+    display: none;
+}
+.main .nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #404040;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main .nav ul li a:hover{
+    border-bottom: 2px solid green;
+}
+.main .nav .logo{
+    width: 15%;
+    height: 90px;
+    display: flex;
+    padding: 10px; 
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    
+}
+.main .nav .logo h2{
+margin-top: 20px;
+font-family: Oswald, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.main .nav .logo :hover{
+    cursor: pointer;
+}
+.name{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    height: 70vh;
+    background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)),url(../images/download1.jpg);
+    background-position: 0% 0%, 50% 80%;
+    background-size: cover auto;  
+    color: #fff;
+}
+.name h1{
+    font-size: 46px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+.name .divnder{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+   margin:28px auto;
+}
+.name  p{
+    font-family: Vollkorn, serif;
+    color: hsla(0, 0%, 100%, 0.81);
+    font-size: 18px;
+    font-style: italic;
+}
+.color{
+    background-color: #fefec9;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: -120px;
+}
+ .color img{
+    width:52px;
+}
+.x-icon{
+   margin-top: -25px;
+    margin-bottom: 34px;
+}
+.color p{
+    text-align: center;
+    margin-left: -1px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #47474f;
+    font-size: 18px;
+}
+.color button{
+    padding: 15px 33px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    text-align: center;
+}
+.color button a{
+    text-decoration: none;
+    color: #47474f;
+    font-size: 19px;
+    font-style: italic;
+    font-family: Vollkorn, serif;
+}
+.color button:hover{
+    cursor: pointer;
+    background-color: rgb(188, 174, 174);
+}
+.aim{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.aim h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+ .divnder2{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+   margin:28px auto;
+   background-color: rgba(0, 0, 0, 0.09);
+}
+.divnder3{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+   margin: auto;
+   margin-top: 50px;
+   background-color: rgba(0, 0, 0, 0.09);
+}
+.aim .cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+justify-content: center;    
+}
+.aim .cards .card{
+    width: 20%;
+    height: 220px;
+margin-left: 20px;
+background-color: #f5f5f5;
+margin-bottom: 220px;
+}
+.aim .cards .card img{
+    width:127px;
+    height: auto;
+    margin-top: 50px;
+}
+.aim .cards .card h3{
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.picture{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #f5f5f5    
+}
+.picture .pic {
+    width: 70%;
+    margin: auto;
+}
+.picture .pic .imag{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture .pic .imag .patch{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 300ms ;
+}
+.picture .pic .imag .patch:hover{
+   transform: translateY(-12px);
+    bottom: 0px;
+   
+}
+.picture .pic .head1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+}
+.picture .pic p{
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+.picture .pic .imag .patch img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.imag .patch.item{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+}
+.picture .pic  h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+.team{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 70px;
+   
+}
+.team .cricle{
+    width: 14%;
+    height: auto;
+    margin-left: 30px;
+}
+.team .cricle img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.team1{
+    width:100%;
+    text-align: center;
+}
+.team1 h2{
+font-family: Montserrat, sans-serif;
+    font-size: 23px;   
+    font-weight: 400;
+    margin-top: 80px;
+}
+.team .cricle h3{
+font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.team .cricle p{
+    margin-top: 5px;
+    font-family: Vollkorn, serif;
+    font-size: 17px;
+    font-style: italic;
+}
+.icon1{
+    background-color: #f5f5f5;
+    border: 5px solid #f5f5f5;
+    border-radius: 70%;
+    margin-top: 10px;  
+}
+.icon1:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.icon{
+margin-left: 10px;
+background-color: #f5f5f5;
+border: 5px solid #f5f5f5;
+border-radius: 50%;
+margin-top: 10px;
+}
+.icon:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.opinion{
+    width: 100%;
+    height: 500px;
+    background-color: #f5f5f5;;
+    
+}
+.opinion .x-logo{
+    width: 100%;
+    height: 62px;
+    text-align: center;
+}
+.opinion .x-logo img{
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 70px;
+}
+.opinion .open{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+} 
+.opinion .open .open1{
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+.opinion .open .open1 h1{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.opinion .open .open1 img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 100%;
+    width: 50px;
+    margin-top: 10px;
+}
+.opinion .open .open1 p{
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    color: #ababab;
+    font-size: 14px;
+    font-weight: 400;
+}
+.opinion .open .open5{
+    border-right: 2px solid rgba(0, 0, 0, 0.04);
+}
+.touch{
+    width: 100%;
+    height: auto;
+    background-color: #7ec4bd;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+.touch h1{
+    margin-top: 100px;
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+.touch .cope{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+.touch .cope .paste{
+    width: 25%;
+    height: auto;
+}
+.touch .cope .pastes img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 45px;
+    margin-top: 90px;
+}
+.touch .cope .paste img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 65px;
+    margin-top: 95px;
+} 
+.touch .cope .paste h3{
+    margin: 20px 0px 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.touch .cope .pastes h3{
+    margin: 5px 0px 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.touch .cope .paste a{
+    color: black;
+}
+.paste .fa-brands{
+    font-size: 14px;
+}
+.inputs{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    text-align: center;
+}
+.inputs .amd{
+    width: 100%;
+    height: auto;
+}
+.inputs .amd input{
+    width: 38%;
+    font-size: 16px;
+    height: 57px;
+    border: 1px solid transparent;
+    color: #7ec4bd;
+    background-color:hsla(0, 3%, 87%, 0.2);
+}
+.ainm input{
+    margin-top: 70px;
+}
+textarea{
+    border: 1px solid transparent;
+    background-color:hsla(0, 0%, 100%, 0.2);
+    font-size: 17px; 
+} 
+.inputs button{
+    margin-top: 15px;
+    margin-bottom: 24px;
+   padding: 17px 50px;
+   background-color: transparent;
+    border-width: 1px 1px 2px;
+    border-color: #7ec4bd;
+    color: #7ec4bd;
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+}
+.inputs button:hover{
+    background-color: rgba(198, 245, 198, 0.3);
+    cursor: pointer;
+}
+.inputs img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+width: 50px;
+margin-bottom: 15px;
+}
+.inputs p{
+    color: #b1b1b1;
+    font-family: Vollkorn, serif;
+    color: hsla(0, 0%, 100%, 0.4);
+}
+.inputs p a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.inputs p a:hover{
+    color: blue;
+    background-color: brown;
+}
+
+
+@media (max-width:600px){
+
+.main .nav ul{
+    display: none;
+}
+
+.toglar i{
+    display: block;
+    margin-top: 25px;
+    margin-left: 250px;
+    font-size: larger;
+}
+.inputs button{
+    margin: 0px;
+}
+textarea{
+    margin: 0px;
+}
+.main .nav{
+    height:auto;
+}
+.main .nav .logo{
+    margin: 0px;
+    margin-left: 50px;
+}
+.main .nav .logo h2{
+font-size: 16px;
+}
+.main .nav .logo img{
+   width: 50px;
+   margin-right: 20px;
+}
+.name{
+    height: 60vh;
+    margin: 0px;
+    margin-top: -20px;
+}
+ .color img{
+width: 50px;
+}
+.name h1{
+    font-size: 34px;
+    margin-top: 40px;
+}
+.aim{
+    text-align: center;
+    margin: 0px;
+    padding-right: 0px;
+}
+.aim .cards{
+    display: block;
+    margin: 0px;
+}
+.aim .cards .card{
+    width: 95%;
+    margin-left: 10px;
+}
+.picture .pic .imag{
+    display: block;
+}
+.picture .pic{
+    width: 100%;
+}
+.picture .pic .imag .patch{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.item{
+    text-align: center;
+}
+.team{
+    display: block;
+    text-align: center;
+}
+.team .cricle{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.more{
+display: none;
+}
+.opinion .open .open1{
+    width: 90%;
+    border: none;
+}
+.touch{
+    width: 100%;
+    height: auto;
+}
+.touch h1{
+    padding-top: 60px;
+    
+}
+.touch .cope{
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+   display: block;
+}
+.touch .cope .paste{
+    margin: auto;
+}
+.inputs{
+    padding-top: 5px;
+    height: auto;
+}
+.inputs .amd input{
+    width: 90%;
+}
+textarea{
+    width: 90%;
+}
+.amd{
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+.inputs button{
+    margin-bottom: 20px;
+}
+.inputs p{
+    padding-bottom: 20px;
+}
+}

@@ -1,0 +1,253 @@
+.nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;   
+}
+ .nav ul li{
+    list-style:none;
+    padding-top: 25px;
+    font-size: 15px;
+    
+}
+ .nav .home ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #404040;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+ .nav .home ul li a:hover{
+    border-bottom: 2px solid green;
+}
+ .nav .logo{
+    width: 15%;
+    height: 90px;
+    display: flex;
+    padding: 10px; 
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.nav .logo h2{
+    margin-top: 20px;
+    font-family: Oswald, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .aik{
+    padding-top: 2px;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    background-image:linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)),url(../images/download1.jpg);
+    background-position: 0% 0%, 50% 70%;
+    background-size: cover auto; 
+    }
+    .aik h1{
+    margin-top: 70px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    }
+    .aik .divnder{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+    margin:28px auto;
+    }
+    .aik  p{
+    font-family: Vollkorn, serif;
+    color: hsla(0, 0%, 100%, 0.81);
+    font-size: 18px;
+    font-style: italic;
+    }
+    .aim{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .aim h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: 400;
+    }
+     .divnder2{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+    margin:28px auto;
+    background-color: rgba(0, 0, 0, 0.09);
+    }
+    .info{
+        width: 100%;
+        height: auto;
+    }
+    .info .info1{
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .info .info1 .card{
+        width: 23%;
+        height: auto;
+    }
+    .info  h3{
+    margin: 0px 0px 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.info .info2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 15px;
+   
+}
+.info .info2 .card{
+    width: 23%;
+    height: auto;
+    margin-right: 95px;
+}
+.picture{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    margin-top: 200px; 
+}
+.picture .pic {
+    width: 70%;
+    margin: auto;
+}
+.picture .pic h2{
+    padding-top: 70px;
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}.any {
+    width: 100%;
+    height: auto;
+}
+.any img{
+    margin-top: 40px;
+    width: 950px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.color{
+    background-color: #fefec9;
+    width: 100%;
+    height: auto;
+    margin-top: 83px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.color img{
+    width:52px;
+    display: inline-block;
+    margin-top: -26px;
+    
+}
+.color p{
+    margin-top: 15px;
+    font-family: Vollkorn, serif;
+    font-size: 20px;
+}
+.color button{
+    padding: 15px 33px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+}
+.color button a{
+    text-decoration: none;
+    color: #47474f;
+    font-size: 19px;
+    font-style: italic;
+    font-family: Vollkorn, serif;
+}
+.color button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.footer img{
+display: inline-block;
+width: 50px;
+margin: auto;
+margin-bottom: 15px;
+margin-top: 50px;
+}
+.footer p{
+  margin: auto;
+    font-family: Vollkorn, serif;
+    color: hsla(0, 0%, 100%, 0.4);
+}
+.footer p a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.footer p a:hover{
+    color: blue;
+    background-color: brown;
+}
+
+@media (max-width:600px){
+    .main .nav{
+        height:auto;
+    }
+    .main .nav .logo{
+        margin: 0px;
+        margin-left: 50px;
+    }
+    .main .nav .logo h2{
+    font-size: 16px;
+    }
+    .main .nav .logo img{
+       width: 50px;
+       margin-right: 20px;
+    }
+    .info .info1{
+        display: block;
+        width: 90%;
+    }
+    .info .info1 .card{
+        width: 100%;
+    }
+    .info .info2{
+        display: block;
+        width: 90%;
+    }
+    .info .info2 .card{
+        width: 100%;
+
+    }
+    .any{
+        width: 100%;
+    }
+    .any img{
+       
+        width: 100%;
+    }
+}
